@@ -2,4 +2,4 @@
 
 ## Blog
 
-  - [2019-10_HPCKnowledgeBase](Public HPC knowledge base)
+  - [Public HPC knowledge base](2019-10_HPCKnowledgeBase/)
