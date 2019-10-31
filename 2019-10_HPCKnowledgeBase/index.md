@@ -68,6 +68,7 @@ services that could provide potential solutions for a shared, open knowledge bas
 
    - Stack Overflow and related Stack Exchange sites
    - ask.cyberinfrastructure
+   - Others?
 
 ### Stack Overflow and related Stack Exchange sites
 
@@ -78,22 +79,47 @@ organisation provides the platform for Stack Overflow and also a number of other
 knowledge bases. One that is relevent for the discussion here is the [Computational Science Stack Exchange](https://scicomp.stackexchange.com/) site. The boundary between which questions would fit best on Stack Overflow
 and which would fit best on CompSci Stack Exchange is a bit fuzzy but the
 [CompSci topic definition](https://scicomp.stackexchange.com/help/on-topic) helps with the distinction boilings
-down to programming questions go on Stack Overflow (e.g. How do I compile a code? How do I use MPI function X?)
-and high-level questions about packages go on CompSci (e.g. Which is the best LAPACK funtion to do X? Should I use
-the single-precision or double-precision version of GROMACS for modelling system Y?).
+down to programming questions go on Stack Overflow; e.g. How do I compile a code? How do I use MPI function X?,
+and high-level questions about packages go on CompSci; e.g. Which is the best LAPACK funtion to do X? Should I use
+the single-precision or double-precision version of GROMACS for modelling system Y?.
 
 On all Stack Exchange sites it is perfectly acceptable to ask a question **and** provide an answer. This can 
 be useful when transferring knowledge from an internal resource (e.g. a service desk ticket) into the 
 public knowledge base.
 
 The strengths of Stack Overflow (and related sites) include its high ranking in technical question searches
-using standard search engines, its well designed interface and the fact that it is already the top resource for
+using standard search engines, its well designed interface, it has a strong definition of allowed questions
+and their format and the fact that it is already the top resource for
 this type of technical information on the internet. Stack Overflow also provides an API that would allow
 integration with other tools. Disadvantages are that it is debatable how many HPC experts are currently 
 engaged in the Stack Overflow communities so it is unclear on the value of the peer review function (at
-least initially).
+least initially). Also, questions that are a matter of opinion or discussion are disallowed; e.g. Should 
+is use C++ or Fortran for my next HPC coding project?, though this can also be cast as a strength in the 
+context of a technical knowledge base as such questions usually lead to open-ended discussion which is not
+useful for answering the original question.
 
-### ask.cyberinfrastructure
+### ask.cyberinfrastructure (Ask.CI)
+
+The [Ask.CI](https://ask.cyberinfrastructure.org/) site was created in the US as:
+
+> a centralized, searchable, archived site to aggregate expert knowledge that is widely distributed throughout
+> the research computing community. It is a joint project of the [Northeast Cyberteam](https://necyberteam.org/)
+> and the [Campus Champions](https://www.xsede.org/community-engagement/campus-champions), it was launched in
+> July, 2018 at PEARC18.
+
+The site provides a Q&A interface aimed at all people involved in research computing (e.g. researchers, users,
+support staff, RSEs, systems administrators). Like the Stack Exchange sites, Ask.CI is free to use and publicly
+available, allows for tagging of questions by topic and allows people to ask a question and answer it themselves.
+Unlike Stack Exchange sites, it allows discussion-style questions and allows topics from across the whole range
+of research computing - all of the example questions discussed in the Stack Exchange section above would be 
+acceptable questions on Ask.CI. It does not have a peer review functionality to allow for rating of answers,
+people can simply *like* posts that they think have merit.
+
+The strengths of Ask.CI are that it is focussed particularly on research computing (though this is broader than
+just HPC), it already has a dedicated, committed community asking and answering questions and that it allows all
+types of questions. Weaknesses are the lack of peer review, the limited community involved and the lack of specific
+question guidelines that mean that many of the questions descend into discussion with no indication of what the
+*accepted* answer is.
 
 ## Next steps
 
