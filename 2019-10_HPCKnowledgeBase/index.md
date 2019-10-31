@@ -22,7 +22,26 @@ publicly to the wider HPC community (including users, RSEs and service providers
 and sites have internal knowledge bases (both private and public) that contain information that
 would be useful across the community and one option would be to find a way to create a public
 knowledge base that could be used by the community to expose this useful information.
-   
+
+## Current situation
+
+Currently, the useful information is stored in a number of different locations with different
+access:
+
+   - Internal knowledge bases, wikis and service desks. These systems do not allow public access to 
+     the information and sometimes are even difficult to use internally to query information.
+   - Public repositories and wikis. A number of different sites provide public repositories and wikis that cover
+     particular technical aspects, such as compilation and installation instructions for different
+     research software. Although useful, the information is fragmented and often difficult to
+     find without knowing where it is.
+
+There is actually a large amount of information already publicly available, for example:
+
+   - Compilation instructions for different HPC systems: [https://github.com/hpc-uk/build-instructions](https://github.com/hpc-uk/build-instructions)
+   - Isambard GW4 Arm benchmarks (including compilation instructions): [https://github.com/UoB-HPC/benchmarks](https://github.com/UoB-HPC/benchmarks)
+   - UCL build scripts: [https://github.com/UCL-RITS/rcps-buildscripts](https://github.com/UCL-RITS/rcps-buildscripts)
+   - UK HPC benchmarks: [https://github.com/hpc-uk/archer-benchmarks](https://github.com/hpc-uk/archer-benchmarks0
+
 ## Requirements
 
 What would the requirements for a public UK HPC knowledge base look like? Based on discussions 
@@ -38,30 +57,44 @@ at the HPC Champions meeting it should be:
    - Rate answers based on correctness: to ensure that entries are kept up to date and that
      publicly-added entries are reviewed.
    - A single service/location to avoid the issues of fragmentation of information.
-   
-## Current situation and options
 
-Currently, the useful information is stored in a number of different locations with different
-access:
+The solution chosen should also likely be free as there is currently no funding stream to support this
+activity!
 
-   - Internal knowledge bases, wikis and service desks. These systems do not allow public access to 
-     the information and sometimes are even difficult to use internally to query information.
-   - Public repositories and wikis. A number of different sites provide public repositories and wikis that cover
-     particular technical aspects, such as compilation and installation instructions for different
-     research software. Although useful, the information is fragmented and often difficult to
-     find without knowing where it is.
+## Potential solutions
 
-There is actually a large amount of information already publicly available, for example:
+From the discussion at HPC Champions and more recently at the RSE HPC monthly open meetings, two initial
+services that could provide potential solutions for a shared, open knowledge base have been identified:
 
-   - Compilation instructions for different HPC systems
-   - Isambard GW4 Arm compilation instructions
-   - UCL build scripts
-   - UK HPC benchmarks
+   - Stack Overflow and related Stack Exchange sites
+   - ask.cyberinfrastructure
 
-Options to meet the requirements for the tool as described above include
+### Stack Overflow and related Stack Exchange sites
 
-   - Open tools: Stack Overflow, ask.cyberinfrastructure
-   
+[Stack Overflow](http://stackoverflow.com) is an public, online knowledge base aimed at sharing technical
+knowledge relevant to programming. The site uses peer review of answers to determine the most useful and
+accurate answers and allows tagging of questions. The overarching [Stack Exchange](https://stackexchange.com/)
+organisation provides the platform for Stack Overflow and also a number of other, less well-known, community
+knowledge bases. One that is relevent for the discussion here is the [Computational Science Stack Exchange](https://scicomp.stackexchange.com/) site. The boundary between which questions would fit best on Stack Overflow
+and which would fit best on CompSci Stack Exchange is a bit fuzzy but the
+[CompSci topic definition](https://scicomp.stackexchange.com/help/on-topic) helps with the distinction boilings
+down to programming questions go on Stack Overflow (e.g. How do I compile a code? How do I use MPI function X?)
+and high-level questions about packages go on CompSci (e.g. Which is the best LAPACK funtion to do X? Should I use
+the single-precision or double-precision version of GROMACS for modelling system Y?).
+
+On all Stack Exchange sites it is perfectly acceptable to ask a question **and** provide an answer. This can 
+be useful when transferring knowledge from an internal resource (e.g. a service desk ticket) into the 
+public knowledge base.
+
+The strengths of Stack Overflow (and related sites) include its high ranking in technical question searches
+using standard search engines, its well designed interface and the fact that it is already the top resource for
+this type of technical information on the internet. Stack Overflow also provides an API that would allow
+integration with other tools. Disadvantages are that it is debatable how many HPC experts are currently 
+engaged in the Stack Overflow communities so it is unclear on the value of the peer review function (at
+least initially).
+
+### ask.cyberinfrastructure
+
 ## Next steps
 
    - Testing Stack Overflow
