@@ -42,7 +42,7 @@ There is actually a large amount of information already publicly available, for 
    - Compilation instructions for different HPC systems: [https://github.com/hpc-uk/build-instructions](https://github.com/hpc-uk/build-instructions)
    - Isambard GW4 Arm benchmarks (including compilation instructions): [https://github.com/UoB-HPC/benchmarks](https://github.com/UoB-HPC/benchmarks)
    - UCL build scripts: [https://github.com/UCL-RITS/rcps-buildscripts](https://github.com/UCL-RITS/rcps-buildscripts)
-   - UK HPC benchmarks: [https://github.com/hpc-uk/archer-benchmarks](https://github.com/hpc-uk/archer-benchmarks
+   - UK HPC benchmarks: [https://github.com/hpc-uk/archer-benchmarks](https://github.com/hpc-uk/archer-benchmarks)
 
 and, I am sure, many others that I do not know about (which is one of the reasons we are having this
 discussion!).
