@@ -16,7 +16,7 @@ national Tier-2 HPC facilities to supplement the national supercomputing service
 the DiRAC national HPC service. A lot of work has been going on to increase information and experience
 sharing between the different national HPC services and to institutional HPC services with a large
 amount of success. There are groups that successfully join together HPC systems technical staff, RSEs that 
-support users and service management across the UK.
+support users and service management across the UK. YOU COULD ADD SUCH AS HPC-SIG, CHAMPIONS
 
 One question that has been raised within the current community meetings is: **How can we share 
 technical solutions and information that we have locally across the community and potentially
@@ -57,8 +57,8 @@ within the community, it should be:
    - **Searchable and well-indexed:** the most powerful search tools are internet search engines. The
      knowledge base should be well indexed and available to be found easily through standard
      search engines.
-   - **Permissions allow public addition of knowledge base entries:** so all can contribute. This,
-     however, means that we need a way to...
+   - **Permissions to allow public addition of knowledge base entries:** so all can contribute. This,
+     however, means that we need a way to...??
    - **Rate answers based on correctness:** to ensure that entries are kept up to date and that
      publicly-added entries are reviewed.
 
@@ -100,8 +100,8 @@ this type of technical information on the internet. Stack Overflow also provides
 integration with other tools. Disadvantages are that it is debatable how many HPC experts are currently 
 engaged in the Stack Overflow communities so it is unclear on the value of the peer review function (at
 least initially). Also, questions that are a matter of opinion or discussion are disallowed; e.g. Should 
-is use C++ or Fortran for my next HPC coding project?, though this can also be cast as a strength in the 
-context of a technical knowledge base as such questions usually lead to open-ended discussion which is not
+I use C++ or Fortran for my next HPC coding project?, though this can also be cast as a strength in the 
+context of a technical knowledge base as such questions usually lead to an open-ended discussion which is not
 useful for answering the original question.
 
 Some examples of where this has already been used for questions in this area are:
@@ -148,13 +148,13 @@ themselves as well to a technical knowledge base.
 Based on the analysis above, my personal opinion is that using the Stack Exchange sites, primarily Stack Overflow
 will provide the strongest solution. The key feature that drive me towards this solution are the strong rules
 around questions that are allowed which drive the responses towards being a useful knowledge base rather than 
-a question and answer resource where posts tend to discussions with no clear answer to the technical question
+a question and answer resource where posts tend to result in discussions with no clear answer to the technical question
 being asked. These types of questions have a place but they do not fit as well into the idea of a useful technical
 knowledge base.
 
 The next step is for the community as a whole to take a decision on how to take this idea of a shared technical 
 HPC knowledge base forward and boostrap its use. One initial option that has been briefly mooted is to run 
-a community hack day where the community comes together to seed the chosen option with initial questions and
+a community hack day where the community would come together to seed the chosen option with initial questions and
 come up with documentation and guidelnes to help sites adopt the chosen solution.
 
 I think there is a great opportunity here for the community to come together to provide an amazing resource that
