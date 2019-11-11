@@ -4,6 +4,8 @@
 
 In this blog post I consider how we (as the UK HPC community) could go about creating a community HPC technical knowledge base that would allow us to share and reuse useful technical information. Much of these thoughts came out of discussions at the [HPC Champions meeting](https://rseconuk2019.sched.com/event/RxMV/hpc-champions-workshop-colocated-with-rseconuk2019) that took place on 16 September 2019 alongside the [UK RSE Conference 2019](https://rse.ac.uk/conf2019/) in Birmingham, UK along with subsequent discussions at the [monthly HPC RSE calls](http://www.hpc-uk.ac.uk/rse/rse_network.html).
 
+Photo by Glen Noble on Unsplash
+
 ## Motivation
 
 The UK HPC landscape has changed a lot over the past 5 years with the introduction of the EPSRC national Tier-2 HPC facilities to supplement the national supercomputing service, ARCHER, and the DiRAC national HPC service. A lot of work has been going on to increase information and experience sharing between the different national HPC services and to institutional HPC services with a large amount of success. There are groups that successfully join together HPC systems technical staff, RSEs that  support users and service management across the UK such as [HPC-SIG](https://hpc-sig.org.uk/), [Society of Research Software Engineering](https://society-rse.org/), [UK HPC Champions](http://www.archer.ac.uk/community/champions/), [UK HPC RSE Network](https://www.hpc-uk.ac.uk/rse/rse_network.html) and the DiRAC and Tier-2 Technical Working Groups (TWGs). EPCC has played a central role in all of these activities and they have been very successful at bringing the community together the share information and coordinate activity but there are still a number of areas where the community could improve.
